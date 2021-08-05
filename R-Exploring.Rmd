@@ -39,7 +39,7 @@ ggpairs(diamonds)
 ```{r}
 #GG Plot Examples
 
-ggplot(data = diamonds, aes(x=price, y=carat)) +
+ggplot(data = diamonds, aes(x=carat, y=price)) +
   geom_point()
 
 ggplot(data = diamonds, aes(x=carat)) + 
